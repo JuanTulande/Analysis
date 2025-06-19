@@ -4,24 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <style>
+    .img01{
+      width: 20%;
+      height: auto;
+    }
+    nav ul{
+      list-style: none;
+      display: flex;
+      padding: 5px;
+      gap: 20px;
+    }
+    nav a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      padding: 8px 10px;
+    }
+    .divconte{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding: 10px;
+    }
+    header{
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgb(113, 66, 66);
+
+    }
+  </style>
 </head>
 <body>
     <header>
-      <div></div>
-      <div>
-          <img src="images/images.png" alt="Apple Inc">
-      </div>
-      <div>
-        <nav>
-          <ul>
-            <li> <a href="#">Home</a></li>
-            <li><a href="#">Us</a></li>
-            <li> <a href="#">Info</a></li>
-            <li> <a href="#">Contact</a></li>
-          </ul>
-        </nav>
+      <div class="divconte">
+        <div>
+            <img class="img01" src="images/images.png" alt="Apple Inc">
+        </div>
+        <div>
+          <nav>
+            <ul>
+              <li> <a href="#">Home</a></li>
+              <li><a href="#">Us</a></li>
+              <li> <a href="#">Info</a></li>
+              <li> <a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
+    <main>
+      <h1>
+        Iphone
+      </h1>
+    </main>
   
 </body>
 </html>
